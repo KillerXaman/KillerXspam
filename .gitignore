@@ -1,0 +1,4 @@
+.env
+__pycache__/
+SAM.session
+SAM.session-journal
