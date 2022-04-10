@@ -1,0 +1,5 @@
+build:
+  docker:
+    Kill: Dockerfile
+run:
+  Kill: python3 -m KillerXspam
