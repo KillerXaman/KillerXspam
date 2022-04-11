@@ -1,10 +1,13 @@
-FROM debian:latest
+FROM sandy1709/catuserbot:alpine
 
-RUN apt update && apt upgrade -y
-RUN apt install git curl python3-pip -y
-RUN pip3 install -U pip
-RUN mkdir /app/
-WORKDIR /app/
-COPY . /app/
+#clonning repo 
+RUN git clone https://github.com/KillerXaman/KillerXspam.git /root/KillerXspam
+#working directory 
+WORKDIR /root/KillerXspam
+
+# Install requirements
 RUN pip3 install -U -r requirements.txt
-CMD python3 KillerXspam
+
+ENV PATH="/home/KillerXspam/bin:$PATH"
+
+CMD ["python3","-m","KillerXspam"]
