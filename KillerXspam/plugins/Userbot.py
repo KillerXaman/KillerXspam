@@ -1,7 +1,7 @@
 import os
 import sys
 from KillerXspam import KILL, KILL2, KILL3, KILL4, KILL5 , KILL6, KILL7, KILL8, KILL9, KILL10, KILL11, KILL12, KILL13, KILL14, KILL15, KILL16, KILL17, KILL18, KILL19, KILL20, KILL21, KILL22, KILL23, KILL24, KILL25, KILL26, KILL27, KILL28, KILL29, KILL30, KILL31, KILL32, KILL33, KILL34, KILL35, KILL36, KILL37, KILL38, KILL39, KILL40, SUDO_USERS
-from KillerXspam import ALIVE_PIC, killerversion
+from KillerXspam import ALIVE_PIC, ALIVE_NAME, killerversion
 from .. import CMD_HNDLR as hl
 from telethon import events, version
 from time import time
@@ -84,11 +84,11 @@ async def ping(e):
         if e.reply_to_msg_id:
             fuk = await e.respond("Pᴏɴɢ!!.....", reply_to=e.reply_to_msg_id)
         else:
-            fuk = await e.reply("Pᴏɴɢ!!.....")
+            fuk = await e.reply("🇵ɪɴɢ! {ALIVE_NAME}\n\n🔥🇰ɪʟʟᴇʀ𝐗 🇸ᴘᴀᴍ🔥 `{ms}`"")
         start = datetime.now()
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        pingop = f"🇵ɪɴɢ!\n\n🔥🇰ɪʟʟᴇʀ𝐗 🇸ᴘᴀᴍ🔥 `{ms}`"                   
+        pingop = f"🇵ɪɴɢ! {ALIVE_NAME}\n\n🔥🇰ɪʟʟᴇʀ𝐗 🇸ᴘᴀᴍ🔥 `{ms}`"                   
         await fuk.edit(pingop)
 
 
