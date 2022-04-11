@@ -25,7 +25,6 @@ killerversion = "v1.5"
 API_ID = config("API_ID", default=None, cast=int)
 API_HASH = config("API_HASH", default=None)
 ALIVE_PIC = config("ALIVE_PIC", default=None)
-ALIVE_NAME = config("ALIVE_NAME", default=None)
 CMD_HNDLR = getenv("CMD_HNDLR", default=".")
 HEROKU_APP_NAME = config("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = config("HEROKU_API_KEY", None)
