@@ -216,7 +216,7 @@ async def stats(event):
 
 # ALIVE
 
-KILL_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/c6f99c0b68ff07439ed72.jpg"
+KILL_PIC = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/c6bdca585c164795977cd.jpg"
 
 
 KILLER = "🚩 ҡเℓℓε૨ sqυα∂ sραɱ ɓσƭ \n\n"
