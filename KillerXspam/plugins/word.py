@@ -112,7 +112,7 @@ async def _(event):
 @KILL39.on(events.NewMessage(incoming=True, pattern=r"\%sword(?: |$)(.*)" % hl))
 @KILL40.on(events.NewMessage(incoming=True, pattern=r"\%sword(?: |$)(.*)" % hl))
 async def spam(e):
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗮𝗶𝗱\n\nCommand:\n\n`.raid` <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗪𝗼𝗿𝗱\n\nCommand:\n\n`.word` <count> <Username of User>\n\n.word <count> <reply to a User>\n\nCount must be a integer."
     if e.sender_id in SUDO_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
