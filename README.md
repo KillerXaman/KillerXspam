@@ -69,6 +69,6 @@
 - 💖 [яιzσεℓ](https://t.me/TheRizoel) » ғᴏʀ ʙᴀsᴇ ᴄᴏᴅᴇs
 ------
 
-##cʀεαтεʀ
+## cʀεαтεʀ
 
 - 💖 [кιℓℓεяXαмαη](https://t.me/AMAN_GURJAR_XD)
